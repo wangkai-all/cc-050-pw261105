@@ -1,0 +1,42 @@
+{
+  "source": "erp",
+  "description": "ERP 系统导出（地址权威来源，时间戳为 UTC）",
+  "records": [
+    {
+      "business_key": "C001",
+      "version": "7",
+      "updated_at": "2026-11-10T03:00:00Z",
+      "payload": {
+        "name": "Acme Corporation",
+        "address": "2 New Ave",
+        "tel": "222-2",
+        "status": "active",
+        "credit": null
+      }
+    },
+    {
+      "business_key": "C002",
+      "version": "4",
+      "updated_at": "2026-11-10T02:00:00Z",
+      "payload": {
+        "name": "Beta LLC",
+        "address": "10 Beta Rd",
+        "tel": "200-2",
+        "status": "active"
+      }
+    },
+    {
+      "business_key": "C004",
+      "version": "2",
+      "updated_at": "2026-11-08T01:00:00Z",
+      "payload": {
+        "name": "Delta Co",
+        "address": "5 Delta Ave",
+        "tel": "400-1",
+        "email": "delta@crm.com",
+        "status": "active",
+        "credit": 800
+      }
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "source": "web",
+  "description": "网站自助表单（版本号独立编号，含晚到的旧记录）",
+  "records": [
+    {
+      "business_key": "C001",
+      "version": "99",
+      "updated_at": "2026-11-01T00:00:00Z",
+      "received_at": "2026-11-12T09:00:00Z",
+      "payload": {
+        "phone": "999-9",
+        "limit": 5000
+      }
+    },
+    {
+      "business_key": "C001",
+      "version": "100",
+      "updated_at": "2026-11-12T00:00:00Z",
+      "payload": {
+        "tier": "vip",
+        "email": "acme@web.com"
+      }
+    },
+    {
+      "business_key": "C002",
+      "version": "50",
+      "updated_at": "2026-11-10T02:00:00Z",
+      "payload": {
+        "tier": "gold"
+      }
+    },
+    {
+      "business_key": "C003",
+      "version": "12",
+      "updated_at": "2026-11-13T00:00:00Z",
+      "payload": {
+        "fullName": "Gamma Inc",
+        "address1": "7 Web Rd",
+        "phone": "300-9",
+        "tier": "vip"
+      }
+    }
+  ]
+}

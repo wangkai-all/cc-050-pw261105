@@ -1,0 +1,52 @@
+{
+  "source": "crm",
+  "description": "CRM 系统导出（名称权威来源，时间戳为 +08:00）",
+  "records": [
+    {
+      "business_key": "C001",
+      "version": "5",
+      "updated_at": "2026-11-10T10:00:00+08:00",
+      "payload": {
+        "customer_name": "Acme Corp",
+        "addr": "1 Old St",
+        "phone": "111-1",
+        "email": "acme@crm.com",
+        "status": "active",
+        "credit_limit": 1000
+      }
+    },
+    {
+      "business_key": "C002",
+      "version": "3",
+      "updated_at": "2026-11-10T10:00:00+08:00",
+      "payload": {
+        "customer_name": "Beta LLC",
+        "addr": "10 Beta Rd",
+        "phone": "200-1",
+        "status": "active"
+      }
+    },
+    {
+      "business_key": "C003",
+      "version": "2",
+      "updated_at": "2026-11-09T09:00:00+08:00",
+      "payload": {
+        "customer_name": "Gamma Inc",
+        "email": "gamma@crm.com"
+      }
+    },
+    {
+      "business_key": "C004",
+      "version": "1",
+      "updated_at": "2026-11-08T08:00:00+08:00",
+      "payload": {
+        "customer_name": "Delta Co",
+        "addr": "5 Delta Ave",
+        "phone": "400-1",
+        "email": "delta@crm.com",
+        "status": "active",
+        "credit_limit": 800
+      }
+    }
+  ]
+}
